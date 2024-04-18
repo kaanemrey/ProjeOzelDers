@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dahil Etme</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="MainPage.html">
+            <img src="journal-bookmark-fill.svg" width="30" height="30" class="d-inline-block align-top " alt="">
+            Özel Ders
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="MainPage.html">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkımızda.html">Biz Kimiz?</a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Kurslarım
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Matematik</a>
+                        <a class="dropdown-item" href="#">Fizik</a>
+                        <a class="dropdown-item" href="#">Kimya</a>
+                        <a class="dropdown-item" href="#">Yaratıcı Yazma</a>
+                        <a class="dropdown-item" href="#">Dijital Pazarlama</a>
+                        <a class="dropdown-item" href="#">Fotografi</a>
+                        <a class="dropdown-item" href="#">Yoga ve Meditasyon</a>
+                        <a class="dropdown-item" href="#">Finansal Okuryazarlık</a>
+                        <a class="dropdown-item" href="#">Yabancı Dil</a>
+                        <a class="dropdown-item" href="#">Programlama</a>
+                        <a class="dropdown-item" href="#">Yemek Pişirme</a>
+                        <a class="dropdown-item" href="#">Girişimcilik</a>
+                        <a class="dropdown-item" href="#">Fotoğraf Düzenleme</a>
+                       
+ 
+ 
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Daha Fazla Ders</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ders Talepleri</a>
+                </li>
+            </ul>
+           
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login' %}">Giriş Yap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'register' %}">Kaydol</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+ 

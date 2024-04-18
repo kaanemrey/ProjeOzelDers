@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+{% include 'navbar.html'%}
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Örnek olarak arama çubuğunu navbarın altına eklemek için bir stil tanımlıyoruz */
+        .search-container {
+            margin-top: 30px;
+        }
+        /* Arama butonu stil tanımı */
+        .search-container button {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        /* Arama kutusu stil tanımı */
+        .search-container input[type=text] {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    </style>
+</head>
+<body>
+ 
+ 
+ 
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group search-container">
+                    <input type="text" class="form-control" placeholder="Ara..." aria-label="Arama" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Ara</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+            <div class="col-md-10">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Slider</title>
+             <style>
+               .carousel-item img {
+                 max-width: 1000px;
+                 max-height: 500px; /* veya istediğiniz piksel değeri */
+               }
+             </style>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                       <ol class="carousel-indicators">
+                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                       </ol>
+                       <div class="carousel-inner">
+                         <div class="carousel-item active">
+                           <img src="slider için fotolar/iStock-1279151428-1.jpg" class="d-block w-100" alt="...">
+                           <div class="carousel-caption d-none d-md-block" style="background-color: rgba(108, 108, 108, 0.711); padding: 3px;">
+ 
+                             <h5>Deneyimli Eğitmenler</h5>
+                             
+                           </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img src="slider için fotolar/teach_resources_teaching_to_practice.jpg" class="d-block w-100" alt="...">
+                           <div class="carousel-caption d-none d-md-block" style="background-color: rgba(108, 108, 108, 0.711); padding: 3px;">
+                             <h5>Birbirinden Farkı Kurslar</h5>
+                           </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img src="slider için fotolar/istockphoto-1167733673-612x612.jpg" class="d-block w-100" alt="...">
+                           <div class="carousel-caption d-none d-md-block" style="background-color: rgba(108, 108, 108, 0.711); padding: 3px;">
+                             <h5>Hepsi İçin Özel Dersim</h5>
+                           </div>
+                         </div>
+                       </div>
+                       <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Previous</span>
+                       </button>
+                       <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Next</span>
+                       </button>
+                    </div>
+ 
+                    <h3 class="text-center font-weight-bold mt-4">Açıklama</h3>
+ 
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem totam dolorem facilis voluptatem dignissimos perspiciatis possimus praesentium, dolore, modi quos laborum assumenda minus nobis at quas ducimus ex aliquam! Dolorem, animi atque tenetur suscipit fugit voluptatum enim saepe earum possimus dicta. Minus, error voluptate nulla a magnam, assumenda deserunt, blanditiis facere saepe unde reprehenderit. Quod ex non maiores quis quam consectetur distinctio porro explicabo sapiente enim beatae dolore, quas fugit asper. </p>
+                     <h3 class="text-center font-weight-bold mt-3">Popüler Dersler</h3>
+ 
+                       
+                        <div class="row mt-5">
+                            <div class="col-sm">
+                                <div class="card text-white bg-info mb-3" style="width: 10rem;">
+                                    <a href="hedef_url">
+                                        <img src="slider için fotolar/pngtree-math-icon-mathematics-abstract-black-png-image_5116099.jpeg" class="card-img-top" alt="...">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="hedef_url" class="text-white">
+                                            <p class="card-text text-center">Matematik</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col-sm">
+                                <div class="card text-white bg-warning mb-3" style="width: 10rem;">
+                                    <a href="python_link">
+                                        <img src="slider için fotolar/python.png" class="card-img-top" alt="Python">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="python_link" class="text-white">
+                                            <p class="card-text text-center">Python</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card text-white bg-success mb-3 mt-2" style="width: 10rem; height: 215px;">
+                                    <a href="physics_link">
+                                        <img src="slider için fotolar/physics-school-subject-icon-education-and-science-vector-32720245.jpg" class="card-img-top" alt="Fizik">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="physics_link" class="text-white">
+                                            <p class="card-text text-center">Fizik</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card text-white bg-secondary mb-3" style="width: 10rem;">
+                                    <a href="guitar_link">
+                                        <img src="slider için fotolar/guitar.png" class="card-img-top" alt="Gitar">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="guitar_link" class="text-white">
+                                            <p class="card-text text-center">Gitar</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <style>
+                                i{
+                                    font-size: 25px;
+                                    color: rgba(91, 91, 91, 0.387);
+                                }
+                            </style>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                              <div class="card" style="width: 18rem;">
+                                <div class="card-header text-center">
+                                  Sosyal Medya Hesapları
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex align-items-center text-center">
+                                    <i class="fab fa-instagram mr-3 "></i>
+                                    <a href="https://www.instagram.com/kaanemreeyilmaz/?next=%2F" target="_blank"><p><u>Instagram</u></p></a></li>
+                                 
+                                  <li class="list-group-item d-flex align-items-center">
+                                    <i class="fab fa-github mr-3"></i>
+                                    <a href="https://github.com/kaanemrey"target="_blank"><p><u>Github</u></p></a>
+                                  </li>
+                                  <li class="list-group-item d-flex align-items-center"> <i class="fab fa-linkedin mr-3"></i><a href="https://www.linkedin.com/in/kaan-emre-y%C4%B1lmaz-a767b2225/?trk=public_profile_samename-profile&originalSubdomain=tr" target="_blank"><p><u>Linkedin</u></p></a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="com-sm-12 col-md-8 col-lg-8">
+                                <div class="card">
+                                    <div class="card-header">
+                                      Quote
+                                    </div>
+                                    <div class="card-body">
+                                      <blockquote class="blockquote mb-0">
+                                        <p>A well-known quote, contained in a blockquote element.</p>
+                                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                      </blockquote>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+ 
+ 
+                         
+    </div>
+ 
+         
+         
+ 
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
